@@ -166,20 +166,14 @@ goal account dump -a $addr | jq -r 'if (.onl == 1) then "You are online!" else "
 
 > [Buradan](https://cswenor.github.io/voi-proposer-data/health.html) kendimizi kontrol edelim (`Hour`)
 
+# voi güncelleme : 
 
-> voi güncelleme : 
+screene girip ;
 
-screene girip 
-
-# sudo apt update
-
-# sudo systemctl stop voi
-
-# sudo apt install algorand
-
-# sudo systemctl start voi
-
-# goal version -v
-
-# goal node status 
+sudo apt update
+sudo systemctl stop voi
+sudo apt install algorand
+sudo systemctl start voi
+goal version -v
+goal node status 
 
