@@ -171,15 +171,15 @@ goal account dump -a $addr | jq -r 'if (.onl == 1) then "You are online!" else "
 
 screene girip 
 
-sudo apt update
+# sudo apt update
 
-sudo systemctl stop voi
+# sudo systemctl stop voi
 
-sudo apt install algorand
+# sudo apt install algorand
 
-sudo systemctl start voi
+# sudo systemctl start voi
 
-goal version -v
+# goal version -v
 
-goal node status 
+# goal node status 
 
