@@ -165,3 +165,21 @@ goal account dump -a $addr | jq -r 'if (.onl == 1) then "You are online!" else "
 > Zaten `online` iseniz doğru ama ek olarak burda gözüküyorsa prop execute etmişsiniz demektir. (iyi bir şey, node calısmıyor anlamına gelmez)
 
 > [Buradan](https://cswenor.github.io/voi-proposer-data/health.html) kendimizi kontrol edelim (`Hour`)
+
+
+> voi güncelleme : 
+
+screene girip 
+
+sudo apt update
+
+sudo systemctl stop voi
+
+sudo apt install algorand
+
+sudo systemctl start voi
+
+goal version -v
+
+goal node status 
+
